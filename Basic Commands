@@ -1,0 +1,78 @@
+
+
+LINE	= (x,y)  or					    	|	Travas mia grami apo x,y simia  pragmatikon sintetagmenon
+        @(x,y) or 	 				   	|	Travas mia grami apo x,y simia  sxetikon sintetagmenon
+	      (x<y)  or	  				  	|	Travas mia grami apo x,y simia  polikon sintetagmenon
+        (x>y)			   			 	    |	Travas mia grami apo x,y simia  polikon sintetagmenon
+
+							    
+
+CIRCLE	= kentro kiklou, enter, d, enter, diametros	    	|	Dimioyrgia kiklou 
+
+
+
+OFFSET	= apostasi, enter, klik pros tin mergia pou thes.   	|	Travas paraliles | Sintomografia " O "
+
+
+
+TRIM	= epilogi gramis os pros tin opia tha kopsis, klik	|	Kovis grames
+	stin koptomeni grami
+
+
+EXTEND	= epilogi gramis os pros tin opia tha epimikinis,	|	Epimikinsi gramon
+	klik stin grami epimikinsis apo tin plevra epimikinsis
+
+
+ROTATE	= epilogi antikimenou, enter, epilogi plevras		|	Peristrofi antikimenon
+	peristrofis, enter
+
+
+MIRROR	= epilogi antikimenou, enter, epilogi simiou		|	Kathrepisi ena antikimeno
+	kathrepti, enter, N gia ton kathreptismo 
+	tou antikimenou, Y gia tin antitheti provoli tou
+
+-LINETYPE = C gia dimiourgia, L gia fortosi, onoma.lin siras,	|	Dimiourgia siras gramis 
+	  onoma.lin siras, onoma.lin siras, stixia siras,	|	π.χ aksonas simetrias , aksonas tomis
+	  L gia fortosi siras, onoma.lin, open			|	Aksonas simetrias A.5,-1.85,0.3,-1.85
+								|	Akonas tomis	A.5,-1.7,0.6,-1.7
+
+
+MULTIPLE = enloli pou thes na xrisimopihsis polaples fores	|	Polaples xrisis mias entolis
+
+
+COPY =	epilogi antikimenou, enter, simio efarpagis		|	Antigrafi atnikimenon | Sintomografia " CO , CP "
+
+
+MOVE =	epilogi antikimenou, enter, simio efarpagis		|	Metakinisi antikimenou
+
+
+LINEWEIGHT = rithmisi paxous gramon                             |       Paxos S = 0,6mm gia tis orates grames 
+								|       Kai S/2 = 0,3mm gia tis mi orates
+
+BOX
+
+ROTATE3D
+
+UNION = Enosi antikimenon
+
+SUBTRUCT = aferesi ilikou
+
+REGEN
+
+WEDGE
+
+HIDE = mi simpagis provoli antikimenou
+
+SHADE = simpagis provoli antikimenou
+
+FILLET = kampili gonias
+
+CHAMFER = epipedi gonia
+
+SLICE = Temaxismos trisdiastatou antikimenou
+
+SUNFER
+
+EXTRUDE = Epimikinsi trisdiastatou antikimenou
+
+REGION = Gemisma antikimenou(SIMPAGES)
