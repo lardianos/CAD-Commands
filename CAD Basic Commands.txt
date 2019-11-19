@@ -1,9 +1,9 @@
 
 
-LINE	= (x,y)  or					    	|	Travas mia grami apo x,y simia  pragmatikon sintetagmenon
-          @(x,y) or 	 				   	|	Travas mia grami apo x,y simia  sxetikon sintetagmenon
-	  (x<y)  or	  				  	|	Travas mia grami apo x,y simia  polikon sintetagmenon
-          (x>y)			   			 	|	Travas mia grami apo x,y simia  polikon sintetagmenon
+LINE	=	(x,y)  or						|	Travas mia grami apo x,y simia  pragmatikon sintetagmenon
+			@(x,y) or						|	Travas mia grami apo x,y simia  sxetikon sintetagmenon
+			(x<y)  or						|	Travas mia grami apo x,y simia  polikon sintetagmenon
+			(x>y)							|	Travas mia grami apo x,y simia  polikon sintetagmenon
 
 							    
 
@@ -11,7 +11,7 @@ CIRCLE	= kentro kiklou, enter, d, enter, diametros	    	|	Dimioyrgia kiklou
 
 
 
-OFFSET	= apostasi, enter, klik pros tin mergia pou thes.   	|	Travas paraliles | Sintomografia " O "
+OFFSET	= apostasi, enter, klik pros tin mergia pou thes.   |	Travas paraliles | Sintomografia " O "
 
 
 
