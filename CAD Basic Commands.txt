@@ -1,5 +1,3 @@
-
-
 LINE	=	(x,y)  or						|	Travas mia grami apo x,y simia  pragmatikon sintetagmenon
 (L)			@(x,y) or						|	Travas mia grami apo x,y simia  sxetikon sintetagmenon
 			(x<y)  or						|	Travas mia grami apo x,y simia  polikon sintetagmenon
