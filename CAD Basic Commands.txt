@@ -53,9 +53,9 @@ DIMLINEAR	epilogi protou simiou, epilogi defterou simiou  | Diastasiologisi Akmo
 (DIML)
 
 -LINETYPE = C gia dimiourgia, L gia fortosi, onoma.lin siras,	|	Dimiourgia siras gramis 
-	  onoma.lin siras, onoma.lin siras, stixia siras,			|	ð.÷ aksonas simetrias , aksonas tomis
-	  L gia fortosi siras, onoma.lin, open						|	Aksonas simetrias A.5,-1.85,0.3,-1.85
-																|	Akonas tomis	A.5,-1.7,0.6,-1.7
+	  onoma.lin siras, onoma.lin siras, stixia siras,	|	ð.÷ aksonas simetrias , aksonas tomis
+	  L gia fortosi siras, onoma.lin, open			|	Aksonas simetrias A.5,-1.85,0.3,-1.85
+								|	Akonas tomis	A.5,-1.7,0.6,-1.7
 								
 
 LINEWEIGHT = rithmisi paxous gramon                             |       Paxos S = 0,6mm gia tis orates grames 
@@ -81,8 +81,6 @@ WEDGE
 HIDE = mi simpagis provoli antikimenou
 
 SHADE = simpagis provoli antikimenou
-
-
 
 CHAMFER = epipedi gonia
 
