@@ -1,93 +1,99 @@
-LINE	=	(x,y)  or						|	Travas mia grami apo x,y simia  pragmatikon sintetagmenon
-(L)			@(x,y) or						|	Travas mia grami apo x,y simia  sxetikon sintetagmenon
-			(x<y)  or						|	Travas mia grami apo x,y simia  polikon sintetagmenon
-			(x>y)							|	Travas mia grami apo x,y simia  polikon sintetagmenon
+LINE	=	(x,y)  or											|	Travas mia grami apo x,y simia  pragmatikon sintetagmenon
+(L)			@(x,y) or											|	Travas mia grami apo x,y simia  sxetikon sintetagmenon
+			(x<y)  or											|	Travas mia grami apo x,y simia  polikon sintetagmenon
+			(x>y)												|	Travas mia grami apo x,y simia  polikon sintetagmenon
 
-POLYLINE									|
+POLYLINE														| 
 (PL)
 							    
 
-CIRCLE	= kentro kiklou, enter, d, enter, diametros	    	|	Dimioyrgia kiklou 
+CIRCLE	= kentro kiklou, enter, d, enter, diametros	    		|	Dimioyrgia kiklou 
 (C)
 
-RECTANGLE 												    | 	Dimiourgia orthogoniou paralilepipedou
+RECTANGLE 												    	| 	Dimiourgia orthogoniou paralilepipedou
 (REC,RECTANG)
 
-TRIM	= epilogi gramis os pros tin opia tha kopsis, klik	|	Kovis grames
-(TR)	    stin koptomeni grami
+TRIM	=	epilogi gramis os pros tin opia tha kopsis, klik	|	Kovis grames
+(TR)		stin koptomeni grami
 
 
-EXTEND	= epilogi gramis os pros tin opia tha epimikinis,	|	Epimikinsi gramon
-(EX)	klik stin grami epimikinsis apo tin plevra epimikinsis
+EXTEND	=	epilogi gramis os pros tin opia tha epimikinis,		|	Epimikinsi gramon
+(EX)		klik stin grami epimikinsis apo tin plevra e
+			pimikinsis
 
 
-ROTATE	= epilogi antikimenou, enter, epilogi plevras		|	Peristrofi antikimenon
+ROTATE	= epilogi antikimenou, enter, epilogi plevras			|	Peristrofi antikimenon
 (RO)	peristrofis, enter
 
 
-MIRROR	= epilogi antikimenou, enter, epilogi simiou		|	Kathrepisi ena antikimeno
+MIRROR	= epilogi antikimenou, enter, epilogi simiou			|	Kathrepisi ena antikimeno
 (MI)	kathrepti, enter, N gia ton kathreptismo 
 	tou antikimenou, Y gia tin antitheti provoli tou
 
-FILLET = Kampilosi Gonias - Loxotomisi Gonias		| Kampilosi gonias me vasi aktina kiklou Aktinas R
-(F)													| Proepilegmeni aktina einai h R=0 epomenos den tha doume diafora
-													| FILLET => ENTER => 
-													|	R => ENTER => "AKTINA" => ENTER Epilegoume tis dio plevres pou sximatizoun tin gonia pou theloume na kampilosoume
-													|   P => ENTER => "AKTINA"
+ 
+FILLET = Kampilosi gonias me vasi aktina kiklou Aktinas R		|  Kampilosi Gonias - Loxotomisi Gonias
+(F)		 Proepilegmeni aktina einai h R=0 
+		 epomenos den tha doume diafora
+		 FILLET => ENTER => 
+		 R => ENTER => "AKTINA" => ENTER Epilegoume tis dio 
+		 plevres pou sximatizoun tin gonia pou 
+		 theloume na kampilosoume
+		 P => ENTER => "AKTINA"
 													
 													
 	
-COPY =	epilogi antikimenou, enter, simio efarpagis		|	Antigrafi atnikimenon | Sintomografia " CO , CP "
+COPY =	epilogi antikimenou, enter, simio efarpagis				|	Antigrafi atnikimenon | Sintomografia " CO , CP "
 (CP)
 
-MOVE =	epilogi antikimenou, enter, simio efarpagis		|	Metakinisi antikimenou
+MOVE =	epilogi antikimenou, enter, simio efarpagis				|	Metakinisi antikimenou
 (M)
 
-OFFSET	= apostasi, enter, klik pros tin mergia pou thes.   |	Travas paraliles | Sintomografia " O "
+OFFSET	= apostasi, enter, klik pros tin mergia pou thes.   	|	Travas paraliles | Sintomografia " O "
 (O)
 
-MULTIPLE = enloli pou thes na xrisimopihsis polaples fores	|	Polaples xrisis mias entolis
+MULTIPLE = enloli pou thes na xrisimopihsis polaples fores		|	Polaples xrisis mias entolis
 (MU,MUL)
 
-DIMLINEAR	epilogi protou simiou, epilogi defterou simiou  | Diastasiologisi Akmon
+DIMLINEAR	epilogi protou simiou, epilogi defterou simiou  	|	Diastasiologisi Akmon
 (DIML)
 
 -LINETYPE = C gia dimiourgia, L gia fortosi, onoma.lin siras,	|	Dimiourgia siras gramis 
-	  onoma.lin siras, onoma.lin siras, stixia siras,	|	ð.÷ aksonas simetrias , aksonas tomis
-	  L gia fortosi siras, onoma.lin, open			|	Aksonas simetrias A.5,-1.85,0.3,-1.85
-								|	Akonas tomis	A.5,-1.7,0.6,-1.7
+			onoma.lin siras, onoma.lin siras, stixia siras,		|	ð.÷ aksonas simetrias , aksonas tomis
+			L gia fortosi siras, onoma.lin, open				|	Aksonas simetrias A.5,-1.85,0.3,-1.85
+																|	Akonas tomis	A.5,-1.7,0.6,-1.7
 								
 
-LINEWEIGHT = rithmisi paxous gramon                             |       Paxos S = 0,6mm gia tis orates grames 
-(LWEIGHT)														|       Kai S/2 = 0,3mm gia tis mi orates
+LINEWEIGHT = rithmisi paxous gramon                             |	Paxos S = 0,6mm gia tis orates grames 
+(LWEIGHT)														|	Kai S/2 = 0,3mm gia tis mi orates
 
+SCALE															|	Alagi Klimakas
 
 ################
 ####   3D   ####
 ################
 
-BOX
+BOX	=															|	Dimiourgia Trisdiastatou kivou
 
-ROTATE3D
+ROTATE3D =														|	Peristrofi Trisdiastatou Antikimenou
 
-UNION = Enosi antikimenon
+UNION = 														|	Enosi Antikimenon
 
-SUBTRUCT = aferesi ilikou
+SUBTRUCT = 														|	Aferesi Ilikou
 
-REGEN
+REGEN = 														|	
 
-WEDGE
+WEDGE = 														|	Dimiourgia Glistras(Sfina-Nevro)
 
-HIDE = mi simpagis provoli antikimenou
+HIDE = 															|	Mi Simpagis Provoli Antikimenou
 
-SHADE = simpagis provoli antikimenou
+SHADE = 														|	Simpagis Provoli Antikimenou
 
-CHAMFER = epipedi gonia
+CHAMFER = 														|	Metatropi Gonias Se Epipedi Diagonio
 
-SLICE = Temaxismos trisdiastatou antikimenou
+SLICE = 														|	Temaxismos trisdiastatou antikimenou
 
 SUNFER
 
-EXTRUDE = Epimikinsi trisdiastatou antikimenou
+EXTRUDE = 														|	Epimikinsi trisdiastatou antikimenou
 
-REGION = Gemisma antikimenou(SIMPAGES)
+REGION = 														|	Gemisma antikimenou(SIMPAGES)
